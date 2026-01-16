@@ -14,7 +14,7 @@ class PelamarFactory extends Factory
     public function definition()
     {
         return [
-            //
+            
         ];
     }
 }
