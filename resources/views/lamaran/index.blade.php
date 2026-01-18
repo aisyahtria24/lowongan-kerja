@@ -69,10 +69,10 @@
                                     </ol>
                                 </td>
                                 <td>{{ $item->status }}</td>
-                                <td>
+                                <td class="d-flex">
                                     @can('approve', $item)
                                         <a href="{{ route('lamaran.approve', $item) }}"
-                                            class="btn btn-sm btn-warning shadow-sm">
+                                            class="btn btn-sm btn-warning shadow-sm mr-2">
                                             <i class="fas fa-check fa-sm mr-2"></i>Terima
                                         </a>
                                         <a href="{{ route('lamaran.reject', $item) }}" class="btn btn-sm btn-danger shadow-sm">
